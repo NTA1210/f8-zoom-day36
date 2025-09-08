@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+}
+.list {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ccc;
+}
+
+.item {
+  display: inline-block;
+  margin: 0 12px;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+  }
+}

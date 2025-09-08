@@ -1,0 +1,10 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  width: var(--default-layout-width);
+  margin: 0 auto;
+}

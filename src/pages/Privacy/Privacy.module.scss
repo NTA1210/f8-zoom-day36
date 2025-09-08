@@ -1,0 +1,10 @@
+.body {
+  margin-top: 20px;
+  font-size: 18px;
+
+  &::first-letter {
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

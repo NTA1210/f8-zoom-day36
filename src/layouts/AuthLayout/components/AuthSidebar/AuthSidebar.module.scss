@@ -1,0 +1,15 @@
+.wrapper {
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: var(--border-radius);
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.link:hover {
+  color: blue;
+  text-decoration: underline;
+}

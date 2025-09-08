@@ -1,0 +1,56 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  //   background: #efefef;
+  margin: 0 auto;
+  width: var(--default-layout-width);
+}
+
+.body {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.content {
+  flex: 1;
+  font-size: 18px;
+}
+.sidebar {
+  width: fit-content;
+  padding: 0 0 12px 12px;
+}
+
+.item {
+  width: 300px;
+  height: 140px;
+  border-radius: var(--border-radius);
+  background: #efefef;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+.link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.specification {
+  .title {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  .row {
+    margin-bottom: 12px;
+  }
+  .label {
+    font-weight: 600;
+  }
+  .value {
+    color: #6b6a6a;
+    font-weight: 500;
+    margin-left: 6px;
+  }
+}

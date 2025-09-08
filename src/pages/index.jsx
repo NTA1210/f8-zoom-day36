@@ -1,0 +1,12 @@
+export { default as HomePage } from "./Home";
+export { default as ContactPage } from "./Contact";
+export { default as DashBoardPage } from "./Dashboard";
+export { default as AboutPage } from "./About";
+export { default as PostsPage } from "./Posts";
+export { default as UsersPage } from "./Users";
+export { default as PostDetailPage } from "./PostDetail";
+export { default as LoginPage } from "./Login";
+export { default as RegisterPage } from "./Register";
+export { default as NotFoundPage } from "./NotFound";
+export { default as PrivacyPage } from "./Privacy";
+export { default as SettingPage } from "./Setting";
